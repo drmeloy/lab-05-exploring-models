@@ -4,7 +4,7 @@
   "description": "In this lab we are going to practice creating mongoose models and seeding a database.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose",
+    "test": "jest --verbose --detectOpenHandles",
     "tw": "npm run test -- --watchAll --coverage",
     "lint": "eslint '**/*.js'"
   },
